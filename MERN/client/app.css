@@ -1,0 +1,202 @@
+body{
+    background-color: #e6ecf0;
+}
+button{
+    cursor: pointer;
+}
+/** Error messages */
+.help-block {
+    color: red;
+}
+.success-block {
+    color: green;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+/**** Header Styles **/
+header{
+    background-color: #333;
+    padding: 10px;
+    border-bottom: 1px solid #888;
+    border-bottom: 1px solid #888;
+}
+.header-middle-section{
+    padding-top: 20px;
+    color: #fff;
+}
+.header-middle-section .navbar{
+ padding-left: 0;
+}
+.header-middle-section .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: 700;
+}
+.header-right-section {
+    padding: 20px 0 0;
+}
+.header-right-section .dropdown-toggle::after{
+    padding-left: 0;
+    color: #fff;
+}
+.header-right-section .nav-link{
+    display: block;
+    padding: .5rem 0.4rem;
+    color: #fff;
+}
+.logo{
+    width: 120px;
+    display: inline-block;
+}
+.logo img{
+    border-radius: 50%;
+    width: 100%;
+}
+.search-form {
+    margin: 0 auto;
+    width: 100%;
+} 
+.search-form input{
+    border: 1px solid #888;
+    padding: 5px 10px;
+    width: 86%
+}
+.navigations-link {
+    margin: 20px 0;
+    width: 100%;
+}
+.navbar-nav .nav-item{
+    position: relative;
+}
+.nav-pills .nav-link {
+    border-radius: 0;
+}
+.nav-pills .nav-link:hover{
+    color: white;
+    background-color: dodgerblue;
+}
+.basket{
+    position: relative;
+}
+.basket .count{
+    position: absolute;
+    left: 24px;
+    top: 9px;
+    text-align: center;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    background-color: #ff6161;
+    border: solid 1px #fff;
+    font-weight: 400;
+    color: #f0f0f0;
+    line-height: 16px;
+    font-size: 12px;
+}
+.basket span{
+    margin-left: 10px;
+}
+/*** banner **/
+.banner-section {
+    border: 1px solid #888;
+    margin: 20px 0;
+}
+.banner-section img{
+    width: 100%;
+}
+
+/** categories */
+.categories a{
+    text-decoration: none;
+}
+.categories figure{margin: 0;}
+.categories figure img{
+    width: 100%;
+}
+.categories p{
+    color: #666;
+    padding: 10px;
+    background-color: #fff;
+    font-size: 0.9rem;
+}
+
+/** footer */
+.footer{
+    padding: 20px;
+    background-color: #333;
+}
+.footer h5{
+    color: #fff;
+}
+.footer .nav-link, .footer p{
+    color:darkgrey;
+    padding: 0;
+}
+
+/** User **/
+
+.user-form, .address-form {
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+}
+.user .btn-group, .address-form .btn-group {
+    align-items: center;
+}
+.products .product{
+    margin-bottom: 20px;
+}
+.products .product div{
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    background: darkgray;
+    border-top: 1px solid #e6ecf0;
+}
+.products .product div >input{
+    width: 30px
+}
+.products figure{
+    padding: 5px;
+    border: 1px solid rgb(39, 38, 38);
+    border-top:none;
+    margin:0;   
+}
+.products .product img{width: 100%}
+.products .product-name, .products .price{
+    background-color:deepskyblue;
+    margin: 0 auto;
+    padding: 5px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.products .price{background-color:darkgray}
+
+/*** Shoping Cart Page */
+.cart{
+    overflow: hidden;
+    margin: 20px 0;
+}
+.cart .list-head, .cart .list-footer{
+    border: 1px solid #999;
+    padding: 5px 0;
+    border-left: 0;
+    border-right: 0;
+    margin: 20px 0
+}
+.list-section img{
+    width: 120px
+}
+.orders {
+    overflow: hidden;
+}
+.orders .list-head{
+    font-weight: bold;
+}
+.orders .list-section,.orders .list-head {
+    padding: 20px 0;
+    border-bottom: 1px solid #333;
+   
+}
